@@ -2,8 +2,8 @@ import os
 from crewai import Agent, Task, Crew, Process
 from langchain_openai import ChatOpenAI
 
-from langchain_community.tools import DuckDuckGoSearchRun
-from langchain_community.tools import BraveSearch
+#from langchain_community.tools import DuckDuckGoSearchRun
+#from langchain_community.tools import BraveSearch
 from tools.sec_tools import SecTools
 #from tools.openbb_tools import OpenBBTools
 
